@@ -1,10 +1,10 @@
 {
-  "CONTRACT_ADDRESS": "0x4e709757b6b1a6c2fd54fde629ed45e5107b133b",
-  "SCAN_LINK": "https://bscscan.com/token/0x4e709757b6b1a6c2fd54fde629ed45e5107b133b",
+  "CONTRACT_ADDRESS": "0x1bdf7d09ce948d872c8dc058a074174a721d5055",
+  "SCAN_LINK": "https://polygonscan.com/token/0x1bdf7d09ce948d872c8dc058a074174a721d5055",
   "NETWORK": {
-    "NAME": "Binance Smart Chain",
-    "SYMBOL": "BNB",
-    "ID": 56
+    "NAME": "Polygon",
+    "SYMBOL": "MATIC",
+    "ID": 137
   },
   "NFT_NAME": "Snow Penguin",
   "SYMBOL": "Penguin",
