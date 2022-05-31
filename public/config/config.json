@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x4e709757b6b1a6c2fd54fde629ed45e5107b133b",
+  "SCAN_LINK": "https://bscscan.com/token/0x4e709757b6b1a6c2fd54fde629ed45e5107b133b",
+  "NETWORK": {
+    "NAME": "Binance Smart Chain",
+    "SYMBOL": "BNB",
+    "ID": 56
+  },
+  "NFT_NAME": "Snow Penguin",
+  "SYMBOL": "Penguin",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 100000000000000000,
+  "DISPLAY_COST": 0.1,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "TofuNFT",
+  "MARKETPLACE_LINK": "https://tofunft.com/user/0x9Ce864f3FB988c4E454B22f924dD4096E04a9f92/items/in-wallet",
+  "SHOW_BACKGROUND": true
+}
