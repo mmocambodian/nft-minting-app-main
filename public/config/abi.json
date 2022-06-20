@@ -145,9 +145,9 @@
 				"type": "address"
 			},
 			{
-				"internalType": "uint256",
+				"internalType": "uint8",
 				"name": "_mintAmount",
-				"type": "uint256"
+				"type": "uint8"
 			}
 		],
 		"name": "mint",
