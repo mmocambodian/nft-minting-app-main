@@ -14,5 +14,5 @@
   "GAS_LIMIT": 450000,
   "MARKETPLACE": "TofuNFT",
   "MARKETPLACE_LINK": "https://tofunft.com/user/0x9Ce864f3FB988c4E454B22f924dD4096E04a9f92/items/in-wallet",
-  "SHOW_BACKGROUND": false
+  "SHOW_BACKGROUND": true
 }
