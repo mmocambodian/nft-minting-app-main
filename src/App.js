@@ -100,7 +100,7 @@ function App() {
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
   const [feedback, setFeedback] = useState(`Click Buy to Mint Your NFT.`);
-  const [mintAmount, setMintAmount] = useState(1);
+  const [quantity, setquantity] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
     SCAN_LINK: "",
@@ -123,8 +123,8 @@ function App() {
   const claimNFTs = () => {
     let cost = CONFIG.WEI_COST;
     let gasLimit = CONFIG.GAS_LIMIT;
-    let totalCostWei = String(cost * mintAmount);
-    let totalGasLimit = String(gasLimit * mintAmount);
+    let totalCostWei = String(cost * quantity);
+    let totalGasLimit = String(gasLimit * quantity);
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting Your ${CONFIG.NFT_NAME}...`);
@@ -152,20 +152,20 @@ function App() {
       });
   };
 
-  const decrementMintAmount = () => {
-    let newMintAmount = mintAmount - 1;
-    if (newMintAmount < 1) {
-      newMintAmount = 1;
+  const decrementquantityt = () => {
+    let newquantity = quantity - 1;
+    if (newquantity < 1) {
+      newquantity = 1;
     }
-    setMintAmount(newMintAmount);
+    setquantity(newquantity);
   };
 
-  const incrementMintAmount = () => {
-    let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 50) {
-      newMintAmount = 50;
+  const incrementquantity = () => {
+    let newquantity = quantity + 1;
+    if (newquantity > 50) {
+      newquantity = 50;
     }
-    setMintAmount(newMintAmount);
+    setquantity(newquantity);
   };
 
   const getData = () => {
@@ -353,7 +353,7 @@ function App() {
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
-                          decrementMintAmount();
+                          decrementquantity();
                         }}
                       >
                         -
@@ -365,14 +365,14 @@ function App() {
                           color: "var(--accent-text)",
                         }}
                       >
-                        {mintAmount}
+                        {quantity}
                       </s.TextDescription>
                       <s.SpacerMedium />
                       <StyledRoundButton
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
-                          incrementMintAmount();
+                          incrementquantity();
                         }}
                       >
                         +
