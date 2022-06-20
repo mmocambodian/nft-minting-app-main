@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x6a87a782156517113a60110f1db3c36a156ea516",
-  "SCAN_LINK": "https://testnet.ftmscan.com/token/0x6a87a782156517113a60110f1db3c36a156ea516",
+  "CONTRACT_ADDRESS": "0xcc6d95c6da47846744ac3e61e2375deb7e2999c1",
+  "SCAN_LINK": "https://testnet.ftmscan.com/token/0xcc6d95c6da47846744ac3e61e2375deb7e2999c1",
   "NETWORK": {
     "NAME": "Fantom",
     "SYMBOL": "FTM",
@@ -13,6 +13,6 @@
   "DISPLAY_COST": 0.01,
   "GAS_LIMIT": 350000,
   "MARKETPLACE": "TofuNFT",
-  "MARKETPLACE_LINK": "https://tofunft.com/user/0x6a87a782156517113a60110f1db3c36a156ea516/items/in-wallet",
+  "MARKETPLACE_LINK": "https://tofunft.com/user/0xcc6d95c6da47846744ac3e61e2375deb7e2999c1/items/in-wallet",
   "SHOW_BACKGROUND": true
 }
