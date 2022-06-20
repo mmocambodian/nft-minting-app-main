@@ -146,7 +146,7 @@
 			},
 			{
 				"internalType": "uint256",
-				"name": "_mintAmount",
+				"name": "quantity",
 				"type": "uint256"
 			}
 		],
